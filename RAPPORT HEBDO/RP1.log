@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  11 JUN 2024 22:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  13 JUN 2024 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -292,53 +292,63 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@dimlist=\toks22
 
 (C:\Miktex\tex/latex/geometry\geometry.cfg))
+(C:\Miktex\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen166
+\ar@mcellbox=\box52
+\extrarowheight=\dimen167
+\NC@list=\toks23
+\extratabsurround=\skip52
+\backup@length=\skip53
+\ar@cellbox=\box53
+)
 (C:\Miktex\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
-\l__pdf_internal_box=\box52
+\l__pdf_internal_box=\box54
 ) (RP1.aux)
 \openout1 = `RP1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Info: Redefining \degres on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Info: Redefining \degres on input line 13.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 12.
+(french.ldf)             reported on input line 13.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 12.
-LaTeX Info: Redefining \up on input line 12.
+(french.ldf)             reported on input line 13.
+LaTeX Info: Redefining \up on input line 13.
 
 (C:\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
-\scratchdimen=\dimen166
-\scratchbox=\box53
+\scratchdimen=\dimen168
+\scratchbox=\box55
 \nofMPsegments=\count289
 \nofMParguments=\count290
-\everyMPshowfont=\toks23
+\everyMPshowfont=\toks24
 \MPscratchCnt=\count291
-\MPscratchDim=\dimen167
+\MPscratchDim=\dimen169
 \MPnumerator=\count292
 \makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks24
+\everyMPtoPDFconversion=\toks25
 ) (C:\Miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -347,7 +357,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Miktex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 12.
+Package hyperref Info: Link coloring OFF on input line 13.
  (RP1.out) (RP1.out)
 \@outlinefile=\write3
 \openout3 = `RP1.out'.
@@ -388,30 +398,57 @@ Package hyperref Info: Link coloring OFF on input line 12.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
+(Font)              <6> on input line 16.
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
 <image/2.png, id=3, 306.39468pt x 462.97969pt>
 File: image/2.png Graphic file (type png)
 <use image/2.png>
-Package pdftex.def Info: image/2.png  used on input line 41.
+Package pdftex.def Info: image/2.png  used on input line 43.
 (pdftex.def)             Requested size: 209.1314pt x 316.00885pt.
-<image/sblck.png, id=5, 362.85562pt x 383.18156pt>
+<image/BMP180-Sensor-Pinout.png, id=5, 501.875pt x 433.62pt>
+File: image/BMP180-Sensor-Pinout.png Graphic file (type png)
+<use image/BMP180-Sensor-Pinout.png>
+Package pdftex.def Info: image/BMP180-Sensor-Pinout.png  used on input line 45.
+
+(pdftex.def)             Requested size: 119.49974pt x 103.24385pt.
+<image/sblck.png, id=6, 362.85562pt x 383.18156pt>
 File: image/sblck.png Graphic file (type png)
 <use image/sblck.png>
-Package pdftex.def Info: image/sblck.png  used on input line 45.
+Package pdftex.def Info: image/sblck.png  used on input line 46.
 (pdftex.def)             Requested size: 298.75394pt x 315.49722pt.
 [1
 
 {C:/Users/Damien/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./image/2.p
-ng> <./image/sblck.png>] [2] (RP1.aux)
+ng> <./image/BMP180-Sensor-Pinout.png> <./image/sblck.png>]
+<image/3.png, id=18, 488.57532pt x 357.58594pt>
+File: image/3.png Graphic file (type png)
+<use image/3.png>
+Package pdftex.def Info: image/3.png  used on input line 83.
+(pdftex.def)             Requested size: 418.25368pt x 306.12108pt.
+<image/4.png, id=19, 200.24812pt x 511.15968pt>
+File: image/4.png Graphic file (type png)
+<use image/4.png>
+Package pdftex.def Info: image/4.png  used on input line 84.
+(pdftex.def)             Requested size: 149.37697pt x 381.32529pt.
+ [2 <./image/3.png> <./image/4.png>]
+Overfull \hbox (3.00766pt too wide) in paragraph at lines 141--141
+[]|\T1/cmr/bx/n/12 Consommation 
+ []
+
+[3] (RP1.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -420,20 +457,24 @@ Package rerunfilecheck Info: File `RP1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11679 strings out of 474591
- 179643 string characters out of 5762190
- 1928533 words of memory out of 5000000
- 33734 multiletter control sequences out of 15000+600000
- 563728 words of font info for 49 fonts, out of 8000000 for 9000
+ 11779 strings out of 474591
+ 181195 string characters out of 5762190
+ 1935533 words of memory out of 5000000
+ 33829 multiletter control sequences out of 15000+600000
+ 564065 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,264b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
-i1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
-600\ecrm1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecbx1200.pk>
-Output written on RP1.pdf (2 pages, 67312 bytes).
+ 75i,10n,79p,264b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecbi1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecbx1200.pk><C:/Miktex/fonts/type1/public/amsfonts/cm/cmmi12.
+pfb><C:/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Miktex/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><C:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb>
+Output written on RP1.pdf (3 pages, 189673 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 3 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 212 PDF objects out of 1000 (max. 8388607)
+ 4 named destinations out of 1000 (max. 500000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
