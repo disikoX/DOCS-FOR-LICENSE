@@ -1,0 +1,86 @@
+/**************************************************************************************
+ 
+  Interfacing PIC16F887 with BMP280 temperature and pressure sensor.
+  Temperature and pressure values are displayed on 16x2 LCD.
+  C Code for mikroC PRO for PIC compiler.
+  Internal oscillator used @ 8MHz
+  Configuration words: CONFIG1 = 0x2CD4
+                       CONFIG2 = 0x0700
+  This is a free software with NO WARRANTY.
+  http://simple-circuit.com/
+ 
+***************************************************************************************/
+ 
+// define device I2C address: 0xEC or 0xEE (0xEE is library default address)
+#include <BMP280_Lib.c>
+
+#ifndef BMP280_I2C_ADDRESS
+  #define BMP280_I2C_ADDRESS  0xEE
+#endif
+
+
+ 
+// LCD module connections
+sbit LCD_RS at RD0_bit;
+sbit LCD_EN at RD1_bit;
+sbit LCD_D4 at RD2_bit;
+sbit LCD_D5 at RD3_bit;
+sbit LCD_D6 at RD4_bit;
+sbit LCD_D7 at RD5_bit;
+sbit LCD_RS_Direction at TRISD0_bit;
+sbit LCD_EN_Direction at TRISD1_bit;
+sbit LCD_D4_Direction at TRISD2_bit;
+sbit LCD_D5_Direction at TRISD3_bit;
+sbit LCD_D6_Direction at TRISD4_bit;
+sbit LCD_D7_Direction at TRISD5_bit;
+// end LCD module connections
+ 
+#include <BMP280.c>  // include BMP280 sensor driver source file
+ 
+long temperature;
+unsigned long pressure;
+char buffer[17];
+ 
+// main function
+void main()
+{
+  OSCCON = 0x70;   // set internal oscillator to 8MHz
+  I2C1_Init(400000);        // initialize I2C communication
+  delay_ms(1000);           // wait a second
+  Lcd_Init();               // initialize LCD module
+  Lcd_Cmd(_LCD_CURSOR_OFF); // cursor off
+  Lcd_Cmd(_LCD_CLEAR);      // clear LCD
+ 
+  // initialize the BMP280 sensor according to the following settings:
+  // BMP280_begin(mode, T_sampling, P_sampling, filter, standby_time)
+  if(BMP280_begin(MODE_NORMAL, SAMPLING_X1, SAMPLING_X1, FILTER_OFF, STANDBY_0_5) == 0)
+  {  // connection error or device address wrong!
+     lcd_out(1, 1, "Connection");
+     lcd_out(2, 1, "error!");
+     while(1);  // stay here
+  }
+ 
+  while(1)
+  {
+    // Read temperature (in hundredths C) and pressure (in Pa)
+    //   values from the BMP280 sensor
+    BMP280_readTemperature(&temperature);  // read temperature
+    BMP280_readPressure(&pressure);        // read pressure
+ 
+    // print data on the LCD screen
+    // 1: print temperature
+    if(temperature < 0)
+      sprinti(buffer, "Temp:-%02u.%02u%cC ", (unsigned int)(abs(temperature)/100), (unsigned int)(abs(temperature)%100), 223);
+    else
+      sprinti(buffer, "Temp: %02u.%02u%cC ", (unsigned int)(temperature/100), (unsigned int)(temperature%100), 223);
+    lcd_out(1, 1, buffer);
+    
+    // 2: print pressure
+    sprinti(buffer, "Pres: %04u.%02uhPa", (unsigned int)(pressure/100), (unsigned int)(pressure%100));
+    lcd_out(2, 1, buffer);
+    
+    delay_ms(2000);  // wait 2 seconds
+  }
+ 
+}
+// end of code.

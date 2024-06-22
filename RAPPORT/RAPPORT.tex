@@ -1,0 +1,35 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{lipsum}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{pdfpages}
+\usepackage{hyperref}
+\usepackage{abstract}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel} 
+\usepackage{xcolor,graphicx}
+\graphicspath{{image/}}
+\definecolor{blue}{RGB}{31,56,100}
+\usepackage[top=1cm, bottom=2cm, left=2cm, right=1cm]{geometry}
+\linespread{1.5}
+
+
+\begin{document}
+
+\includepdf[pages={1}]{couverture.pdf}
+
+
+\null\newpage
+
+\includepdf[pages={1}]{couverture final.pdf}
+
+\input{remerciements.tex}
+
+\pagenumbering{roman}
+ 
+\null\newpage
+
+\includepdf[pages={1}]{cahier de charge.pdf}
+
+\end{document}

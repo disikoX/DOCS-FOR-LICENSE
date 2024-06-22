@@ -1,0 +1,8 @@
+T G "int8_t" 2 23 "sint8" `34 
+D G "__PCM__" 2 24 ""5.049""
+D G "__DEVICE__" 2 24 ""
+D G "__DATE__" 2 24 ""21-juin-24""
+D G "__TIME__" 2 24 ""20:31:29""
+D G "_UNICODE" 2 24 ""?""
+D G "__EVAL" 2 24 ""?"" "Interfacing PIC16F887 with BMP280 temperature and pressure sensor."
+D G "_STDINT" 2 19 ""
