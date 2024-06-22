@@ -9,8 +9,59 @@
 \graphicspath{{image/}}
 \usepackage{graphicx}
 \usepackage{array}
+\linespread{1.5}
 
 
 \begin{document}
-teub
+
+\underline{\textbf{LE MICROCONTRÔLEUR}}\\[0.2cm]
+Comme le dispositif doit être \underline{\textbf{portable}} et le capteur choisi n'ayant que peu de broche (le capteur a besoin des lignes séries SDA et SCL par contre), nos critères les plus importants seront : \textbf{la dimension}, \textbf{le nombre de broche (le moins de broche possible)}, \textbf{le mode de consommation (low, ultra-low)}.\\[1.5cm]
+
+
+\underline{\textbf{TABLEAU COMPARATIFS DES µCONTRÔLEURS}}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|>{\raggedright\arraybackslash}m{4cm}|>{\raggedright\arraybackslash}m{3cm}|>{\raggedright\arraybackslash}m{3cm}|>{\raggedright\arraybackslash}m{3cm}|}\hline
+\textbf{Critère} & \textbf{PIC16F887} & \textbf{Arduino Nano} \\
+\hline
+\textbf{Dimensions Physiques} & 4.44 x 4.44 x 0.80 cm & 4.5 x 1.8 x 1.5 cm \\
+\hline
+\textbf{Nombre de Broches} & 40 broches (PDIP) & 30 broches \\
+\hline
+\textbf{Modes de Consommation} &
+Mode actif : typiquement 1.8 mA à 5V, 4 MHz\
+Mode veille : typiquement 1.0 µA à 5V &
+Mode actif : environ 19 mA à 5V \
+Mode veille : environ 1 mA \\
+\hline
+\textbf{Horloge} & Jusqu'à 20 MHz (avec oscillateur externe) & 16 MHz \\
+\hline
+\textbf{Prix} & 15.000Ar & 50.000Ar 
+\\
+\hline
+\end{tabular}
+\end{table}
+
+
+\underline{\textbf{INCONVENIENTS}}
+\begin{itemize}
+\setlength{\itemindent}{2cm}
+\item \underline{\textit{\textbf{Pour le PIC16F887:}}}\\
+Le problème pour le PIC est que la librairie officielle pour le capteur est inexistant voire introuvable, ce qui oblige à coder soi-même sa propre librairie, ou à copier les bouts de codes trouver sur internet.\\  
+
+\pagenumbering{gobble}
+
+\setlength{\itemindent}{2cm}
+\item \underline{\textit{\textbf{Pour l'arduino NANO:}}}\\
+Il n'est pas adapté pour les dispositifs embarqués mais plutôt pour les bancs d'essai et les prototypages.
+\end{itemize}
+
+
+
+
+
+
+
+
 \end{document}
