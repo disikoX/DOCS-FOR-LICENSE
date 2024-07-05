@@ -1,0 +1,136 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel} 
+\usepackage{xcolor,graphicx}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usetikzlibrary{fit}
+\usetikzlibrary{positioning}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage[top=1cm, bottom=2cm, left=1cm, right=1cm]{geometry}
+\graphicspath{{image/}}
+\usepackage{graphicx}
+\usepackage{array}
+\linespread{1.5}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\underline{\textbf{SCHEMA BLOC DU DISPOSITIF:}}\\
+
+Le dispositif sera doté d'un bouton de marche/arrêt, après l'activation de celle-ci l'ensemble du dispositif sera alimenté et le capteur pourra commencer l'étape de mesure puis le microcôntreleur communiquera avec l'afficheur pour afficher les mesures obtenues.\\[1.5cm]
+
+\begin{tikzpicture}  
+
+
+\node [draw,
+    minimum width=4cm,
+    minimum height=3cm,
+    right=1cm
+]  (Alimentation) {$Alimentation$};
+
+\node [draw,
+    minimum width=4cm,
+    minimum height=3cm,
+    right=1.5cm of Alimentation
+]  (Mesure) {$Mesure$};
+ 
+ \node [draw,
+    minimum width=4cm,
+    minimum height=3cm,
+    right=1.5cm of Mesure
+]  (Affichage) {$Affichage$};
+ 
+
+\draw[-stealth] (Alimentation.east) -- (Mesure.west) ;
+
+    
+\draw[-stealth] (Mesure.east) -- (Affichage.west) ;
+
+    
+\draw[stealth-] (Alimentation.west) -- ++(-3,0) 
+    node[midway,above]{$ON/OFF$};
+
+
+
+\end{tikzpicture}\\[1cm]
+
+
+
+\begin{tikzpicture}  
+
+
+\node [draw,
+    minimum width=4cm,
+    minimum height=3cm,
+    right=1cm
+]  (Alimentation) {$Alimentation$};
+
+\node [draw,
+    minimum width=4cm,
+    minimum height=3cm,
+    right=1.5cm of Alimentation
+]  (Mesure) {$Mesure$};
+ 
+\node [draw,
+    minimum width=4cm,
+    minimum height=3cm,
+    right=1.5cm of Mesure
+]  (Affichage) {$Affichage$};
+
+
+
+\node [draw,
+    minimum width=4cm,
+    minimum height=3cm,
+    below=1.5cm of Alimentation
+]  (micor) {\centering CAPTEUR  DE  PRESSION};
+
+\node [draw,
+    minimum width=4cm,
+    minimum height=3cm,
+    right=1cm of  micor
+]  (A) {$MICROCONTROLEUR$};
+
+\node [draw,
+    minimum width=4cm,
+    minimum height=3cm,
+    right=1cm of  A
+]  (B) {$AFFICHEUR$};
+
+
+
+\draw[-stealth] (Alimentation.east) -- (Mesure.west) ;
+
+    
+\draw[-stealth] (Mesure.east) -- (Affichage.west) ;
+
+\draw[-stealth] (micor.east) -- (A.west) ;
+
+    
+\draw[-stealth] (A.east) -- (B.west) ;
+
+
+    
+
+    
+\draw[stealth-] (Alimentation.west) -- ++(-3,0) 
+    node[midway,above]{$ON/OFF$};
+
+
+\node[draw,,dashed,fit=(Mesure) (Affichage)] (box) {};
+\node[draw,,dashed,fit=(micor) (B)] (box2) {};
+
+
+\draw[-stealth] (box.south) -- (box2.north);
+
+
+\end{tikzpicture}  
+
+
+
+
+\end{document}

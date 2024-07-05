@@ -1,0 +1,83 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel} 
+\usepackage{xcolor,graphicx}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usetikzlibrary{fit}
+\usetikzlibrary{positioning}
+\usepackage{siunitx}
+\usepackage{hyperref}
+\usepackage[top=1cm, bottom=2cm, left=1cm, right=1cm]{geometry}
+\graphicspath{{image/}}
+\usepackage{graphicx}
+\usepackage{array}
+\linespread{1.5}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\underline{\textbf{SCHEMA BLOC DU DISPOSITIF:}}\\[2cm]
+
+\centering
+
+\begin{tikzpicture}  
+
+
+\node [draw,
+    minimum width=4cm,
+    minimum height=1cm,
+    right=1cm
+]  (Alimentation) {$Alimentation$};
+
+\node [draw,
+    minimum width=4cm,
+    minimum height=1cm,
+    below =1.5cm of Alimentation
+]  (Micro) {$Microcontroleur$};
+ 
+
+\node [draw,
+    minimum width=4cm,
+    minimum height=1cm,
+     left=2cm of Micro
+]  (Mesure) {$Capteur$};
+ 
+ \node [draw,
+    minimum width=4cm,
+    minimum height=1cm,
+     right=2cm of Micro
+]  (Affichage) {$Affichage$};
+ 
+
+\draw[stealth-] (Micro.west) -- (Mesure.east) ;
+%
+%    
+\draw[-stealth] (Micro.east) -- (Affichage.west) ;
+
+\draw[-stealth] (Alimentation.south) -- (Micro.north);
+
+\draw[stealth-] (Mesure.north) |- (Alimentation.west);
+
+\draw[stealth-] (Affichage.north) |- (Alimentation.east);
+
+\draw[stealth-] (Mesure.west) -- ++(-1.5,0) 
+    node[right,above]{$Air\ ambiant$};
+    
+\draw[stealth-] (Alimentation.north) -- ++(0,1) 
+    node[right,above]{$Marche/Arret$};
+
+
+
+\end{tikzpicture}\\[1cm]
+
+
+
+
+
+
+
+
+\end{document}

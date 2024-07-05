@@ -1,35 +1,68 @@
 \documentclass[a4paper,12pt]{report}
-\usepackage{lipsum}
 \usepackage{titlesec}
 \usepackage{tocloft}
 \usepackage{pdfpages}
 \usepackage{hyperref}
 \usepackage{abstract}
+\usepackage{import}
+\usepackage{enumitem}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[french]{babel} 
 \usepackage{xcolor,graphicx}
+\newcounter{insertpages}
+\usepackage{glossaries}
 \graphicspath{{image/}}
 \definecolor{blue}{RGB}{31,56,100}
-\usepackage[top=1cm, bottom=2cm, left=2cm, right=1cm]{geometry}
+\usepackage[top=1cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 \linespread{1.5}
+
+\definecolor{blue}{RGB}{31,56,100}
+\newenvironment{poliabstract}[1]
+  {\renewcommand{\abstractname}{#1}\begin{abstract}}
+  {\end{abstract}}
+
 
 
 \begin{document}
 
-\includepdf[pages={1}]{couverture.pdf}
+\renewcommand{\listfigurename}{Table des figures}
+\renewcommand{\listtablename}{Table des matières}
 
+\pagenumbering{gobble}
+
+
+\includepdf[pages={1}]{couverture.pdf}
 
 \null\newpage
 
 \includepdf[pages={1}]{couverture final.pdf}
 
-\input{remerciements.tex}
+\input{Remerciements}
+
 
 \pagenumbering{roman}
  
 \null\newpage
 
-\includepdf[pages={1}]{cahier de charge.pdf}
+
+\include{Cahier des charges}
+
+
+
+\listoffigures{}
+
+
+\tableofcontents{}
+
+
+\input{résumé}
+{\let\clearpage\relax\par \input{Abstract}} %mettre 2 chap sur une même page%
+
+
+\input{Introduction générale}
+
+
+
 
 \end{document}
