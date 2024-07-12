@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  1 JUL 2024 23:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  10 JUL 2024 21:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,8 +309,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 22.
 File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box52
-) (COUVERTURE.aux
-(remerciements.aux))
+) (COUVERTURE.aux)
 \openout1 = `COUVERTURE.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -339,7 +338,8 @@ Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
 (french.ldf)             reported on input line 26.
 LaTeX Info: Redefining \up on input line 26.
- (C:\Miktex\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
 \scratchdimen=\dimen166
@@ -399,7 +399,7 @@ Package hyperref Info: Link coloring ON on input line 26.
 \@outlinefile=\write3
 \openout3 = `COUVERTURE.out'.
 
-<image/Univ.png, id=7, 193.72375pt x 199.74625pt>
+<image/Univ.png, id=3, 193.72375pt x 199.74625pt>
 File: image/Univ.png Graphic file (type png)
 <use image/Univ.png>
 Package pdftex.def Info: image/Univ.png  used on input line 32.
@@ -415,7 +415,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 35.
-<image/ESP.png, id=8, 2055.68pt x 1825.82124pt>
+<image/ESP.png, id=4, 2055.68pt x 1825.82124pt>
 File: image/ESP.png Graphic file (type png)
 <use image/ESP.png>
 Package pdftex.def Info: image/ESP.png  used on input line 51.
@@ -426,71 +426,38 @@ Overfull \hbox (24.94557pt too wide) in paragraph at lines 51--52
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 89.
+(Font)              <14.4> on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 89.
+(Font)              <7> on input line 86.
 [1
 
 {C:/Users/Damien/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./image/Uni
-v.png> <./image/ESP.png (PNG copy)>] [1]
-File: image/Univ.png Graphic file (type png)
-<use image/Univ.png>
-Package pdftex.def Info: image/Univ.png  used on input line 133.
-(pdftex.def)             Requested size: 82.78523pt x 85.35826pt.
-
-Overfull \hbox (11.65335pt too wide) in paragraph at lines 133--134
- [] 
- []
-
-File: image/ESP.png Graphic file (type png)
-<use image/ESP.png>
-Package pdftex.def Info: image/ESP.png  used on input line 152.
-(pdftex.def)             Requested size: 96.07745pt x 85.35826pt.
-
-Overfull \hbox (24.94557pt too wide) in paragraph at lines 152--153
- [] 
- []
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.206 \end{titlepage}
-                      [1]
-\openout2 = `remerciements.aux'.
-
- (remerciements.tex) [1
-
-
-] (COUVERTURE.aux
-(remerciements.aux))
+v.png> <./image/ESP.png (PNG copy)>] [1] (COUVERTURE.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `COUVERTURE.out' has not changed.
-(rerunfilecheck)             Checksum: 4E3DBF96764D8F5595F1FA6C14C0059F;109.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11802 strings out of 474591
- 181991 string characters out of 5762190
- 1931533 words of memory out of 5000000
- 33828 multiletter control sequences out of 15000+600000
+ 11771 strings out of 474591
+ 181147 string characters out of 5762190
+ 1932533 words of memory out of 5000000
+ 33806 multiletter control sequences out of 15000+600000
  570423 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,453b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecr
-m1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
-600\eccc1440.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecbx2488.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/j
-knappen/ec/dpi600\ecrm1440.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/l
-jfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Damien\AppData\Local\MiK
-TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk>
-Output written on COUVERTURE.pdf (4 pages, 349516 bytes).
+ 75i,8n,79p,253b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecc
+c1440.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecbx2488.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecrm1440.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecbx1440.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk>
+Output written on COUVERTURE.pdf (2 pages, 318146 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 5 named destinations out of 1000 (max. 500000)
- 19 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 PDF objects out of 1000 (max. 8388607)
+ 3 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

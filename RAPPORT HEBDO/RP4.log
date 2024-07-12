@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  1 JUL 2024 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  11 JUL 2024 09:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -345,32 +345,32 @@ File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
 ) (RP4.aux)
 \openout1 = `RP4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Info: Redefining \degres on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \degres on input line 17.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 19.
+(french.ldf)             reported on input line 17.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 19.
-LaTeX Info: Redefining \up on input line 19.
+(french.ldf)             reported on input line 17.
+LaTeX Info: Redefining \up on input line 17.
 
 (C:\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -405,7 +405,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 19.
+Package hyperref Info: Link coloring OFF on input line 17.
  (RP4.out) (RP4.out)
 \@outlinefile=\write3
 \openout3 = `RP4.out'.
@@ -489,23 +489,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
 1.
 (C:\Miktex\tex/latex/base\t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 31.
+(Font)              <12> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 31.
+(Font)              <8> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 31.
+(Font)              <6> on input line 41.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--34
+Underfull \hbox (badness 10000) in paragraph at lines 41--44
 
  []
 
-(RP4.bbl [2]) [3
+(RP4.bbl [2]
+Underfull \hbox (badness 10000) in paragraph at lines 38--42
+[]\T1/cmr/m/n/12 PICMANIAC.  Ba-ro-me-tric pres-sure sen-sor, 2019.  https ://p
+ic-in-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--48
+[]\T1/cmr/m/n/12 Dilip Raja.  Pres-sure sen-sor bmp180 in-ter-fa-cing with ar-d
+uino uno, 2015.
+ []
+
+) [1
 
 ] (RP4.aux)
  ***********
@@ -516,20 +528,21 @@ Package rerunfilecheck Info: File `RP4.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12636 strings out of 474591
- 195855 string characters out of 5762190
- 1926533 words of memory out of 5000000
- 34649 multiletter control sequences out of 15000+600000
- 563428 words of font info for 49 fonts, out of 8000000 for 9000
+ 12653 strings out of 474591
+ 195966 string characters out of 5762190
+ 1929533 words of memory out of 5000000
+ 34659 multiletter control sequences out of 15000+600000
+ 564112 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,79p,294b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
-x2488.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
-600\ectt1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecrm1200.pk><C:/Miktex/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on RP4.pdf (3 pages, 352065 bytes).
+ <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ect
+i1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecbx2488.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ectt1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecrm1200.pk><C:/Miktex/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on RP4.pdf (3 pages, 368498 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
+ 346 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

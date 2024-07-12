@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  6 JUL 2024 00:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  11 JUL 2024 08:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -627,24 +627,24 @@ File: l3backend-pdftex.def 2023-10-23 L3 backend support: PDF output (pdfTeX)
 (Cahier des charges.aux))
 \openout1 = `RAPPORT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
  (C:\Miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count336
@@ -678,19 +678,19 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 29.
  (RAPPORT.out) (RAPPORT.out)
 \@outlinefile=\write3
 \openout3 = `RAPPORT.out'.
 
-LaTeX Info: Redefining \degres on input line 27.
+LaTeX Info: Redefining \degres on input line 29.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 27.
+(french.ldf)             reported on input line 29.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 27.
-LaTeX Info: Redefining \up on input line 27.
+(french.ldf)             reported on input line 29.
+LaTeX Info: Redefining \up on input line 29.
 
 (RAPPORT.glsdefs)
 *geometry* driver: auto-detecting
@@ -727,35 +727,35 @@ LaTeX Info: Redefining \up on input line 27.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<couverture.pdf, id=23, 597.50829pt x 845.0471pt>
+<couverture.pdf, id=51, 597.50829pt x 845.0471pt>
 File: couverture.pdf Graphic file (type pdf)
 <use couverture.pdf>
-Package pdftex.def Info: couverture.pdf  used on input line 35.
+Package pdftex.def Info: couverture.pdf  used on input line 37.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: couverture.pdf Graphic file (type pdf)
 <use couverture.pdf>
-Package pdftex.def Info: couverture.pdf  used on input line 35.
+Package pdftex.def Info: couverture.pdf  used on input line 37.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<couverture.pdf, id=26, page=1, 597.50829pt x 845.0471pt>
+<couverture.pdf, id=54, page=1, 597.50829pt x 845.0471pt>
 File: couverture.pdf Graphic file (type pdf)
 <use couverture.pdf, page 1>
-Package pdftex.def Info: couverture.pdf , page1 used on input line 35.
+Package pdftex.def Info: couverture.pdf , page1 used on input line 37.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: couverture.pdf Graphic file (type pdf)
 <use couverture.pdf, page 1>
-Package pdftex.def Info: couverture.pdf , page1 used on input line 35.
+Package pdftex.def Info: couverture.pdf , page1 used on input line 37.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture.pdf Graphic file (type pdf)
 <use couverture.pdf, page 1>
-Package pdftex.def Info: couverture.pdf , page1 used on input line 35.
+Package pdftex.def Info: couverture.pdf , page1 used on input line 37.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture.pdf Graphic file (type pdf)
 <use couverture.pdf, page 1>
-Package pdftex.def Info: couverture.pdf , page1 used on input line 35.
+Package pdftex.def Info: couverture.pdf , page1 used on input line 37.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture.pdf Graphic file (type pdf)
 <use couverture.pdf, page 1>
-Package pdftex.def Info: couverture.pdf , page1 used on input line 35.
+Package pdftex.def Info: couverture.pdf , page1 used on input line 37.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 [1
 
@@ -765,44 +765,44 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \null\newpage
+l.39 \null\newpage
                    [2]
-<couverture final.pdf, id=200, 597.50829pt x 845.0471pt>
+<couverture final.pdf, id=204, 597.50829pt x 845.0471pt>
 File: couverture final.pdf Graphic file (type pdf)
 <use couverture final.pdf>
-Package pdftex.def Info: couverture final.pdf  used on input line 39.
+Package pdftex.def Info: couverture final.pdf  used on input line 41.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: couverture final.pdf Graphic file (type pdf)
 <use couverture final.pdf>
-Package pdftex.def Info: couverture final.pdf  used on input line 39.
+Package pdftex.def Info: couverture final.pdf  used on input line 41.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<couverture final.pdf, id=203, page=1, 597.50829pt x 845.0471pt>
+<couverture final.pdf, id=207, page=1, 597.50829pt x 845.0471pt>
 File: couverture final.pdf Graphic file (type pdf)
 <use couverture final.pdf, page 1>
-Package pdftex.def Info: couverture final.pdf , page1 used on input line 39.
+Package pdftex.def Info: couverture final.pdf , page1 used on input line 41.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: couverture final.pdf Graphic file (type pdf)
 <use couverture final.pdf, page 1>
-Package pdftex.def Info: couverture final.pdf , page1 used on input line 39.
+Package pdftex.def Info: couverture final.pdf , page1 used on input line 41.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture final.pdf Graphic file (type pdf)
 <use couverture final.pdf, page 1>
-Package pdftex.def Info: couverture final.pdf , page1 used on input line 39.
+Package pdftex.def Info: couverture final.pdf , page1 used on input line 41.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: couverture final.pdf Graphic file (type pdf)
 <use couverture final.pdf, page 1>
-Package pdftex.def Info: couverture final.pdf , page1 used on input line 39.
+Package pdftex.def Info: couverture final.pdf , page1 used on input line 41.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 \includepdf[pages={1}]{couverture final.pdf}
+l.41 \includepdf[pages={1}]{couverture final.pdf}
                                                  
 File: couverture final.pdf Graphic file (type pdf)
 <use couverture final.pdf, page 1>
-Package pdftex.def Info: couverture final.pdf , page1 used on input line 39.
+Package pdftex.def Info: couverture final.pdf , page1 used on input line 41.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [3
 
@@ -813,7 +813,7 @@ Package pdftex.def Info: couverture final.pdf , page1 used on input line 39.
 \openout2 = `"Cahier des charges.aux"'.
 
  (Cahier des charges.tex
-<cahier de charge.pdf, id=362, 597.50829pt x 845.0471pt>
+<cahier de charge.pdf, id=365, 597.50829pt x 845.0471pt>
 File: cahier de charge.pdf Graphic file (type pdf)
 <use cahier de charge.pdf>
 Package pdftex.def Info: cahier de charge.pdf  used on input line 7.
@@ -822,7 +822,7 @@ File: cahier de charge.pdf Graphic file (type pdf)
 <use cahier de charge.pdf>
 Package pdftex.def Info: cahier de charge.pdf  used on input line 7.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
-<cahier de charge.pdf, id=365, page=1, 597.50829pt x 845.0471pt>
+<cahier de charge.pdf, id=368, page=1, 597.50829pt x 845.0471pt>
 File: cahier de charge.pdf Graphic file (type pdf)
 <use cahier de charge.pdf, page 1>
 Package pdftex.def Info: cahier de charge.pdf , page1 used on input line 7.
@@ -847,7 +847,7 @@ Overfull \hbox (17.62482pt too wide) in paragraph at lines 6--9
 )
 File: cahier de charge.pdf Graphic file (type pdf)
 <use cahier de charge.pdf, page 1>
-Package pdftex.def Info: cahier de charge.pdf , page1 used on input line 49.
+Package pdftex.def Info: cahier de charge.pdf , page1 used on input line 51.
 (pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
  [2
 
@@ -892,31 +892,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
 ) (Introduction générale.tex [4
 
-]) [5
+]
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
-] (RAPPORT.aux (Cahier des charges.aux))
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+) (généralités.tex [1
+
+]
+Chapitre 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+[2
+
+]) [3] (RAPPORT.aux (Cahier des charges.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `RAPPORT.out' has not changed.
-(rerunfilecheck)             Checksum: A2C55A888195DEE3CEA5F602EC07A4B8;571.
+(rerunfilecheck)             Checksum: 681B469E14F3A043D2A5AA35F0A540E1;1728.
  ) 
 Here is how much of TeX's memory you used:
- 20128 strings out of 474591
- 334539 string characters out of 5762190
- 1928533 words of memory out of 5000000
- 41977 multiletter control sequences out of 15000+600000
- 564565 words of font info for 52 fonts, out of 8000000 for 9000
+ 20177 strings out of 474591
+ 335367 string characters out of 5762190
+ 1930533 words of memory out of 5000000
+ 42008 multiletter control sequences out of 15000+600000
+ 567653 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,17n,93p,2351b,624s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecb
-x1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
-600\ecrm1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
-/ec/dpi600\ecbx2488.pk><C:/Miktex/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on RAPPORT.pdf (8 pages, 1003560 bytes).
+x1440.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\ecbx1728.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen
+/ec/dpi600\ecbx1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\ecrm1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/l
+jfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Miktex/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Miktex/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><C:/Miktex/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Miktex/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on RAPPORT.pdf (10 pages, 1066849 bytes).
 PDF statistics:
- 649 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 761 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 

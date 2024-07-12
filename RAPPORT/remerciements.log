@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  23 JUN 2024 21:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  7 JUL 2024 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./remerciements.tex
-(remerciements.tex
+**./Remerciements.tex
+(Remerciements.tex
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
 ! Undefined control sequence.
@@ -1066,6 +1066,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no , in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -1368,7 +1370,7 @@ Overfull \hbox (4.44444pt too wide) in paragraph at lines 5--12
 
 )
 ! Emergency stop.
-<*> ./remerciements.tex
+<*> ./Remerciements.tex
                        
 *** (job aborted, no legal \end found)
 

@@ -3,4 +3,11 @@
 \contentsline {chapter}{Cahier des charges}{ii}{chapter*.2}%
 \contentsline {chapter}{Résumé}{iv}{chapter*.3}%
 \contentsline {chapter}{Abstract}{iv}{chapter*.4}%
-\contentsline {chapter}{Introduction générale}{v}{chapter*.5}%
+\contentsline {chapter}{Introduction générale}{1}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Généralités}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}La pression}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}La pression atmosphérique}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}La pression au niveau de la mer}{3}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Le baromètre}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Le baromètre à mercure}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Le barographe électronique}{3}{subsection.1.2.2}%

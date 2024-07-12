@@ -1,19 +1,55 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{barometer}
 HAREDJ~Lynda et~TALEB~Rosa.
 \newblock Etude et réalisation d'un baromètre numérique, 2006.
 
 \bibitem{2}
-PICMANIAC.
-\newblock Barometric pressure sensor, 2019.
+C.~N. Guiar and L.~W. Duff.
+\newblock Electronic simulation of a barometric pressure sensor for the
+  meteorological monitor assembly.
+\newblock {\em DSN Engineering Section}, 1982.
 
 \bibitem{3}
-Dilip Raja.
-\newblock Pressure sensor bmp180 interfacing with arduino uno, 2015.
+Weisheng Zheng and Yimei Liu.
+\newblock Design of digital barometer based on single-chip microcomputer
+  control.
+\newblock 2016.
 
 \bibitem{4}
+Emmanuel~G. Dada, Stephen~B. Joseph, Digima Mustapha, and Birma~I. Hena.
+\newblock Microcontroller based remote weather monitoring system.
+\newblock {\em Journal of Scientific and Engineering Research}, 2018.
+
+\bibitem{5}
+ALLELE~Aymen et~BENAMEUR~Rami.
+\newblock Conception et réalisation d’un tensiomètre électronique, Juillet
+  2021.
+
+\bibitem{6}
+Microchip Technology.
+\newblock Pic16f882/883/884/886/887 data sheet.
+
+\bibitem{7}
+Bosch Sensortec.
+\newblock Bmp180 digital pressure sensor datashet, 7 Mai 2015.
+
+\bibitem{8}
+PICMANIAC.
+\newblock Barometric pressure sensor, 2019.
+\newblock
+  https://pic-in-pascal.blogspot.com/2017/07/barometric-pressure-sensor.html.
+
+\bibitem{9}
+Dilip Raja.
+\newblock Pressure sensor bmp180 interfacing with arduino uno, 2015.
+\newblock
+  https://circuitdigest.com/microcontroller-projects/pressure-sensor-bmp180-with-arduino.
+
+\bibitem{10}
 Srituobby.
 \newblock Bmp180 sensor with arduino, 2021.
+\newblock
+  https://srituhobby.com/bmp180-sensor-with-arduino-code-bmp180-pressure-sensor-tutorial-step-by-step-instruction/.
 
 \end{thebibliography}

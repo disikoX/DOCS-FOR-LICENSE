@@ -13,6 +13,8 @@
 \newcounter{insertpages}
 \usepackage{glossaries}
 \graphicspath{{image/}}
+\newcommand{\RomanNumeralCaps}[1]
+    {\MakeUppercase{\romannumeral #1}}
 \definecolor{blue}{RGB}{31,56,100}
 \usepackage[top=1cm, bottom=2cm, left=2cm, right=2cm]{geometry}
 \linespread{1.5}
@@ -56,12 +58,12 @@
 \tableofcontents{}
 
 
+
 \input{résumé}
 {\let\clearpage\relax\par \input{Abstract}} %mettre 2 chap sur une même page%
 
-
 \input{Introduction générale}
-
+\input{généralités}
 
 
 

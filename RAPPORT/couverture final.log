@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  1 JUL 2024 23:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2024.3.12)  10 JUL 2024 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -250,9 +250,9 @@ Overfull \hbox (24.94557pt too wide) in paragraph at lines 37--38
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 75.
+(Font)              <14.4> on input line 72.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 75.
+(Font)              <7> on input line 72.
 [1
 
 {C:/Users/Damien/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./image/Uni
@@ -277,9 +277,9 @@ c1440.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
 knappen/ec/dpi600\ecbx1440.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fonts/pk/l
 jfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\Damien\AppData\Local\MiKTeX\fon
 ts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk>
-Output written on "couverture final.pdf" (1 page, 320170 bytes).
+Output written on "couverture final.pdf" (1 page, 319788 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
